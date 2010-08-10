@@ -1,0 +1,46 @@
+=== Social Media Pack - Twitter Module ===
+Contributors: Nick Rogers, Matt Porter
+Donate Link: http://socialmediapack.co.uk
+Tags: twitter, social networking
+Requires at least: 2.0
+Tested up to: 3.0.1
+Stable tag: 1.0
+
+This is the twitter module of the social media pack, it automatically forwards
+your blog posts onto twitter.
+
+== Description ==
+
+This is a relatively small script which allows you to automatically send your
+blog posts to twitter and keep any people that may be following you updated with
+your latest activity
+
+== Installation ==
+
+1. Upload socialmediapack.zip
+2. Activate the plugin
+3. Go to the "Settings" menu and select "SMP - Twitter", follow the instructions
+   to authorize and link your twitter account with your wordpress site
+
+== Frequently Asked Questions ==
+
+= Is it free? =
+
+Yes.
+
+= Is it simple to manage? =
+
+Yes.
+
+== Screenshots ==
+
+1. Not necessary
+
+== Changelog ==
+
+= 1.0 =
+* Brought into existence
+
+== Upgrade Notice ==
+
+1. None
