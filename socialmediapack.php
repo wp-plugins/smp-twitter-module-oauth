@@ -3,7 +3,7 @@
 Plugin Name: Social Media Pack - Twitter Module
 Plugin URI: http://www.socialmediapack.co.uk
 Description: The social media pack automatically sends your wordpress posts onto twitter
-Version: 1.1
+Version: 1.2
 Author: Matt Porter / Nick Rogers
 Author URI: http://www.mattporter.com
 License: GPL2
@@ -179,7 +179,7 @@ function sendToTwitter($postID) {
 			$content = $post->post_content . ' ';
 		else
 			$content = '';
-		$status = $title . $content . $shorturl;
+		$status = strip_tags($title) . strip_tags($content) . $shorturl;
 
 		// Send the new status to twitter
 		$status = $connection->post('statuses/update', array('status' => $status));

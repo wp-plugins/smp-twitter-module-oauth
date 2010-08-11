@@ -1,19 +1,19 @@
 === Social Media Pack - Twitter Module ===
-Contributors: Nick Rogers, Matt Porter
+Contributors: Matt Porter, Nick Rogers
 Donate Link: http://www.socialmediapack.co.uk/wordpress/social-media-pack-twitter-plugin-with-oauth/
 Tags: twitter, social networking
 Requires at least: 2.0
 Tested up to: 3.0.1
-Stable tag: 1.0
+Stable tag: 1.2
 
-This is the twitter module of the social media pack, it automatically forwards
-your blog posts onto twitter.
+This module forms a part of the Social Media Pack, the Twitter module cross posts to a nominated Twitter account using the oauth method. It is very simple to install and use.
+
 
 == Description ==
 
 This is a relatively small script which allows you to automatically send your
 blog posts to twitter and keep any people that may be following you updated with
-your latest activity
+your latest activity. The module uses oauth to connect to Twitter and is.gd to compress back links.
 
 == Installation ==
 
@@ -40,7 +40,14 @@ Yes.
 
 = 1.0 =
 * Brought into existence
+= 1,1 =
+* Tidying up Readme
+= 1.2 =
+* Strips html tags from Title and Description
 
 == Upgrade Notice ==
 
 1. None
+
+== Arbitrary section ==
+More information & support: http://www.socialmediapack.co.uk/wordpress/#/social-media-pack-twitter-plugin-with-oauth/
