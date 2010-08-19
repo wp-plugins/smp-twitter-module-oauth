@@ -4,7 +4,7 @@ Donate Link: http://www.socialmediapack.co.uk/wordpress/social-media-pack-twitte
 Tags: twitter, social networking
 Requires at least: 2.0
 Tested up to: 3.0.1
-Stable tag: 1.2
+Stable tag: 1.3
 
 This module forms a part of the Social Media Pack, the Twitter module cross posts to a nominated Twitter account using the oauth method. It is very simple to install and use.
 
@@ -44,6 +44,8 @@ Yes.
 * Tidying up Readme
 = 1.2 =
 * Strips html tags from Title and Description
+= 1.3 =
+* Corrected installation problem where the call back following installation was pointing to the incorrect path
 
 == Upgrade Notice ==
 
